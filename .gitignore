@@ -1,0 +1,21 @@
+# --- R Specific Files ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# --- Project Specific Outputs ---
+# It is often best practice to keep source data and results out of Git 
+# if they are large or frequently changing.
+tables_plots/
+report/
+
+# --- OS/Editor Specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data Protection ---
+# If your raw Excel file contains sensitive information, uncomment the line below:
+# population_count.xlsx
